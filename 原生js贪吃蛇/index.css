@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3a6ea5;
+}
+#map {
+  width: 880px;
+  height: 660px;
+  font-size: 0px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+#map div {
+  float: left;
+  width: 20px;
+  height: 20px;
+  font-size: 0px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+}
+#sele {
+  width: 880px;
+  height: 30px;
+  font-size: 0px;
+  margin: 20px auto;
+  border: none;
+  margin-top: -15px;
+}
+#sele input {
+  float: left;
+  height: 30px;
+  margin-left: 20px;
+}
+#sele i {
+  float: left;
+  font-size: 20px;
+  color: pink;
+  height: 30px;
+  line-height: 30px;
+  font-style: normal;
+  text-align: center;
+}
+#sele span:nth-child(3) {
+  float: left;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  color: black;
+}
+#sele select {
+  float: left;
+  height: 30px;
+  font-size: 18px;
+  color: blue;
+  border: 1px solid black;
+}
+#sele button {
+  float: left;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 18px;
+  padding: 0px 5px;
+  border: 1px solid black;
+}
+#sele span:nth-child(7) {
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  color: yellow;
+}
